@@ -7,7 +7,7 @@ Launch it with
 
 
 ## 1 - WORK ENVIRONMENT
-The objective is to create the work environment, from the support (Jupyter notebook), through the language (Python) and presenting the main tools for the analysis and visualization of the data (Numpy, Pandas and Matplotlib)
+The objective is to create the work environment, from the 'physical' desktop (Jupyter notebook), through the language (Python) and introducing the main tools for the analysis and visualization of the data (Numpy, Pandas and Matplotlib)
 
 ### 1.1 Jupyter Notebook
 The notebooks involve the fusion of text editor, programming tool and visualization support, all accessible through the browser. They are currently, de facto, the way by which code is exchanged and results are displayed.
