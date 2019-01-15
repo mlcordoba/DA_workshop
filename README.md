@@ -35,7 +35,8 @@ On numerous occasions the original data set is not able of leading to the best p
 ### 3.1 Factor analysis / ANOVA
 Two of the most used techniques are presented to extract information on a set of variables and to be able to arrange them according to the impact they have on the dependent variable.
 
-### 3.2 Clustering : The most used techniques are presented (among which K-means stands out) to separate data and categorize them.
+### 3.2 Clustering
+The most used techniques are presented (among which K-means stands out) to separate data and categorize them.
 
 ### 3.3 Dimension reduction
 The most used techniques are presented (among which the PCA stands out) in order to be able to construct a set of data of reduced dimensions, and therefore manageable, of better characteristics.
