@@ -15,8 +15,11 @@ The notebooks involve the fusion of text editor, programming tool and visualizat
 ### 1.2 Basic elements of Python
 Python is a programming language with a wider use than R, especially for Big Data application. Will be taught how to use basic elements of Python, such as data types (list, arrays, dictionaries), control flows (for loop, if / else), Input / Output data files and how to generate visualizations.
 
-### 1.3 Numpy, Pandas and Matplotlib
+### 1.3 Numpy, Matplotlib and Pandas 
 These libraries are the main tools for the analysis and visualization of data. In this section we will go deeper than in section 1.2.
+
+### 1.4 Geeting data 
+Very often data needs to be gather from different sources. Here we will get data using client APIs and also we will do some web scrapping if sources are a bit trickier.
 
 
 ## 2 - DATA EXPLORATION - TIME SERIES
