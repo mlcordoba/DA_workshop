@@ -33,100 +33,100 @@ A good case to practice accessing databases on the web using APIs. It will also 
 
 
 ## 3 - INSIGHTS INTO DATA INPUT
-On numerous occasions the original data set is not able of leading to the best prediction model. To find the best model it is necessary to apply data cleansing techniques, for example, to select those variables that offer greater predictive power, create new variables using others as a starting point to improve the originals or simply eliminate those variables that degrade the system.
+Very often the original data set is not able to lead to the best prediction model. IIn order to acheive a better prediction it is necessary to apply data cleansing techniques, for example, to select those variables that offer greater predictive power, create new variables using others as a starting point to improve the originals or simply eliminate those variables that degrade the system.
 
 ### 3.1 Factor analysis / ANOVA
-Two of the most used techniques are presented to extract information on a set of variables and to be able to arrange them according to the impact they have on the dependent variable.
+These two very popular techniques are introduce in here. They are used to extract information on a set of variables and sort them according to the impact they have on the dependent variable.
 
 ### 3.2 Clustering
-The most used techniques are presented (among which K-means stands out) to separate data and categorize them.
+Clustering techniques are used to separate data and categorize them. We will introduce the most popular ones with special empahsys on K-means.
 
 ### 3.3 Dimension reduction
-The most used techniques are presented (among which the PCA stands out) in order to be able to construct a set of data of reduced dimensions, and therefore manageable, of better characteristics.
+Dimension reduction techniques are used to generate a smaller and manageable dataset while keeping its most importante characteristics.
 
 ### 3.4 Feature Engineering
 Analysis of different practical cases in which the construction of new variables produced an improvement in the prediction.
 
 
-## 4 - TÉCNICAS REGRESIÓN Y CLASIFICACIÓN LINEAL
-Se trata del primer bloque dedicado a la predicción. Se empezará a practicar con las dos ramas, regresión y clasificación. La regresión constituye una predicción de una variable continua, mientras que la clasificación trata de predecir una variables discreta.
+## 4 - LINEAR REGRESSION AND CLASSIFICATION TECHNIQUES
+This is the first block dedicated purely to prediction techniques. We will start working with the two branches of this field, regression and classification. The regression is a a continuous variable prediction problem, whereas classification tries to predict a discrete variable.
 
-#### 4.1 Regresión
-Puesta en práctica de este tipo de predicción en problemas multidimensionales en Python.
+#### 4.1 Regression
+We will work with this kind of prediction technique in a multidimensional system in Python.
 
-#### 4.2 Clasificación
-Puesta en práctica de este tipo de predicción mediante el uso de diferentes técnicas, entre las que destacan : Regresión logística, SVM o Perceptron.
+#### 4.2 Classification
+We will work with this kind of prediction technique using different techniques such as Logistic Regression, SVM or Perceptron.
 
-#### 4.3 Árboles de decisión / Random Forest
-Se trata de una técnica de predicción muy popular, fácil de implementar y a menudo suficiente. La pondremos en práctica para entre otros ejemplos, para predecir la generación eólica de un cartera de parques eólicos.
-
-
-
-## 5 - TÉCNICAS REGRESIÓN Y CLASIFICACIÓN NO LINEAL
-En este apartado se presentaran los elementos básicos de regresión y clasificación mediante redes neuronales. Además presentaremos, y usaremos, los frameworks más populares en Python (PyTorch, Keras y TensorFlow), algunos de ellos concebidos para el Deep Learning.
-
-#### 5.1 Redes Neuronales Artificiales
-Conceptos esenciales de Redes Neuronales Artificiales.
-
-#### 5.2 Regresión
-Puesta en práctica de este tipo de predicción en problemas multidimensionales.
-
-#### 5.3 Clasificación
-Puesta en práctica de este tipo de predicción.
+#### 4.3 Decision trees / Random Forest
+This is a very popular prediction technique, easy to implement and very often enough. We will put it into practice, by predicting the wind generation of a wind farm portfolio.
 
 
 
-## 6 - TÉCNICAS PREDICCIÓN PROBABILISTICA
-Se presentaran los conceptos en este tipo de predicción. La diferencia principal es que el resultado final en lugar de ser un único valor determinista, es una distribución de probabilidad. Este tipo de predicción se adapta mejor a aquellos sistemas en los que existe algún tipo de incertidumbre, ya sea en las condiciones iniciales o en alguna parte de la dinámica procesos. Se presentará el framework PyMC3 diseñado para este tipo de predicción.
+## 5 - NON-LINEAR REGRESSION AND CLASSIFICATION TECHNIQUES
+This block will introduce the basic elements of non-linear regression and classification using artificial neural networks. We will also introduce and use, the most popular frameworks in Python (PyTorch, Keras and TensorFlow), some of them designed for specifically for Deep Learning.
 
-#### 6.1 Teorema de Bayes
-Se trata de una parte fundamental de la predicción probabilística. Introduce los términos de distribución de probabilidad previa, posterior y probabilidad condicional. 
+#### 5.1 Artificial neural networks
+Essential concepts of artificial neural networks.
 
-#### 6.2 Simulación de MonteCarlo
-Se trata de una técnica para resolver problemas cuya solución es no analítica mediante el uso de elementos probabilísticos.
+#### 5.2 Regression
+We will work with this kind of prediction technique in a multidimensional system in Python.
 
-#### 6.3 Procesos estocasticos
-Se presentan los tipos de procesos estocásticos y sus propiedades.
+#### 5.3 Classification
+We will work with this kind of prediction technique in a multidimensional system in Python.
 
-#### 6.4 Cadenas de Markov
-Se trata de un tipo de proceso estocástico muy común cuyo estado futuro depende únicamente del estado presente. 
+
+
+## 6 - PROBABILISTIC PREDICTION TECHNIQUES
+This block will introduce the basic concepts of this kind of prediction. The main difference is that the final result, instead of being a single deterministic value, it is a probability distribution. This kind of prediction is best suited for those systems in which there is some sort of uncertainty, either in the initial conditions or in some part of the dynamic proces. The PyMC3 framework for Python, designed specifically for this kind of prediction will be introduced.
+
+#### 6.1 Bayes Theorem
+It is a fundamental part of probabilistic prediction. We will deabte about the terms of likehood and previous, posterior and conditional probability distribution.
+
+#### 6.2 MonteCarlo simulation
+This is a technique using to solve probabilistic elements, problems with a non-analytical solution.
+
+#### 6.3 Stochastic processes
+Stochastic processes and their properties are introduced in here.
+
+#### 6.4 Markov Chains
+It is a very common type of stochastic process which future state depends solely on the present state.
 
 #### 6.5 MCMC
-Parte fundamental de este bloque, donde se presenta los elementos prácticos de la predicción probabilística mediante procesos de cadenas de Markov, MC (Markov Chain) unido a simulación de Monte Carlo, MC.
+A fundamental part of this block introducing the practical elements of probabilistic prediction through Markov chain processes, MC (Markov Chain) coupled with Monte Carlo simulation, MC.
 
 
 
-## 7 - TÉCNICAS PREDICCIÓN DE SERIES TEMPORALES
-La predicción de series temporales se puede abordar desde diferentes enfoques, ya sea mediante métodos lineales, como pueden ser los ARIMA o GARCH, mediante redes neuronales. En este apartado servirá pues como colofón a la parte de análisis de datos y técnicas de predicción.
+## 7 - TIME SERIES FORECAST
+Time series forecast cab be acheived through different approaches, either through linear methods, such as ARIMA or GARCH or through artificail neural networks. This block will recap all techniques to solve this important kind of prediction problem.
 
 #### 7.1 ARIMA / GARCH / Exponential Smoothing
-Puesta en práctica de las clásicas técnicas de predicción de series temporales en Python.
+Implementation of the classic techniques of prediction of time series in Python.
 
-#### 7.2 Redes Neuronales Artificiales
-Emplearemos este tipo de técnica para resolver los aspectos no lineales en las series temporales.
+#### 7.2 Artificial Neural Networks
+We will use this kind of technique to solve non-linear aspects in time series.
 
-#### 7.3 Filtro de Kalman
-Técnica para ir corrigiendo iterativamente la predicción en función de la incertidumbre (errores previos) y las observaciones más recientes.
+#### 7.3 Kalman filter
+Technique to iteratively correct the prediction based on the uncertainty (previous errors) and the most recent observations.
 
 
 
-## 8 - BIG DATA EN LA NUBE
-En este apartado se mostrarán los pasos a seguir para implantar un ecosistema de Big Data en una plataforma en la nube
+## 8 - BIG DATA IN THE CLOUD
+This block will show the steps to follow to implement a Big Data environment in a typical cloud platform
 
-#### 8.1 Plataformas en la nube AWS/GCP
-Se presentarán la plataforma mas popular (AWS) y la que parece dispuesta a arrebatarle esa posición, GCP.
+#### 8.1 AWS / GCP cloud platforms
+The most popular platform (AWS) will be introduced along with the one that could eventually take its position, GCP.
 
-#### 8.2 Bases de datos
-Un elemento fundamental en el diseño de un ecosistema de Big Data es la elección de la o las bases de datos. Estas deben encajar a la perfección con el tamaño presente y futuro de los datos y además del tipo de uso, intensivo/extensivo, que se haga de los datos almacenados.
+#### 8.2 Databases
+A key element in the design of a Big Data environemnt is the database(s) selection. The database has to fit perfectly with the current and future size of the data inflow, and also be able to cope with the analysis underatook on the stored data by the end-users.
 
-#### 8.3 Computación
-El segundo elemento fundamental en el diseño de un ecosistema de Big Data en la nube es la elección de los recursos de computación. Estos deben de encajar, sin idealmente estar sobre o infradimensionados. En este apartado analizaremos diferentes casos prácticos y su solución óptima.
+#### 8.3 Computing
+The second key element in the design of a Big Data environemnt in the cloud is the computing resources selection. The compute has not to be at any time oversized nor undersized. We will analyze different practical cases and their optimal solution.
 
-#### 8.4 Pipelines
-El tercer elemento fundamental. Adaptación de Python a ficheros de grandes dimensiones.
+#### 8.4 Pipelines : ETL
+The third key element. Extraction, Transform and Load of large files of data using Python.
 
 #### 8.5 Queries
-El este apartado se hará uso del lenguaje SQL para poder hacer consultas a bases de datos masivas.
+In this section we will use the SQL language to query massive databases.
 
 #### 8.6 Monitoring
-El este apartado se presentan los diferentes elementos que se deben vigilar para que el sistema. Se aprovechará para enseñar elementos básicos de Linux, como utilizar la linea de comandos y algo de bash scripting.
+This section introduce the different systems elements that has to be monitored for the sake of its health. We will also introduce basic Linux elements, such as using the command line and some bash scripting techniques.
