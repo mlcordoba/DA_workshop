@@ -2,8 +2,7 @@ DATA ANALYTICS
 =====================
 
 Launch it with 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mlcordoba/curso_DA/master)
-
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mlcordoba/DA_workshop/master)
 
 
 ## 1 - WORK ENVIRONMENT
